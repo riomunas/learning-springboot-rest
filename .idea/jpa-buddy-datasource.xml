@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="16ee8962-822f-4d2f-8566-1819be8afc41" name="learning-springboot" url="jdbc:h2:file:~/h2/learning-springboot" driverClass="org.h2.Driver" />
+    </data-sources>
+    <data-source-infos>
+      <data-source-info id="16ee8962-822f-4d2f-8566-1819be8afc41" persistence-unit-name="Default" />
+    </data-source-infos>
+  </component>
+</project>
