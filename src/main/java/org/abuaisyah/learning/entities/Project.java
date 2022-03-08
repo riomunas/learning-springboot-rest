@@ -8,7 +8,9 @@ import java.util.List;
 import java.util.UUID;
 
 @Entity
-@Table(name = "project")
+@Table(name = "project", uniqueConstraints = {
+        @UniqueConstraint(name = "uc_project_name", columnNames = {"name"})
+})
 public class Project {
     @Id
     @Column(name = "sid", nullable = false)
