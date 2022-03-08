@@ -8,6 +8,7 @@ import java.util.UUID;
 @Table(name = "task")
 public class Task {
     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "sid", nullable = false)
     private UUID sid;
 
